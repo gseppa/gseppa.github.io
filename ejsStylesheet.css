@@ -1,0 +1,101 @@
+html{
+    background-color:#ffffff;
+    
+}
+
+body{
+    box-sizing:border-box;
+    
+    font-family: serif;
+    background-color:#ffffff;
+    
+}
+
+.navwrap{
+    height: 100px;
+    background-color:#292929;
+}
+
+#logo{
+    float:left;
+    height: 80px;
+    width:6%;
+    margin-top: -12px;
+    
+}
+
+#ejs{
+    padding-left: 2%;
+    float:left;
+    font-size: 30px;
+    width: 10%;
+    display:inline-block;
+    
+}
+
+#home{
+    border-right: 1px solid white;
+}
+
+#bio{
+    border-right:1px solid white;
+}
+
+#exp{
+    border-right: 1px solid white;
+}
+
+#contact{
+    
+}
+
+.navbar{
+    margin-top:30px;
+    display: inline-block;
+    list-style-type: none;
+    padding-bottom: 5px;
+    color:#ffffff;
+    width: 97%;
+    height: 30px;
+    background: -webkit-linear-gradient(left, black , #535353); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #535353, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #535353, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #535353 , black); /* Standard syntax (must be last) */
+    
+}
+
+.navbuttons{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 15%;
+    font-size: 18px;  
+}
+
+#main {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:#f0f0f0;
+    
+    Height: 1000px;
+}
+    
+.socialmedia{
+    width:30px;
+    display: inline-block;
+    padding-right: 35px;
+    margin-top:-6px;
+}
+
+#fb{
+   padding-left:50px;
+}
+
+#tw{
+    padding-left:10px;
+}
+
+.navwords{
+    background-color: transparent;
+    margin-top: 6px
+}
