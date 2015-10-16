@@ -6,7 +6,7 @@ html{
 body{
     box-sizing:border-box;
     
-    font-family: serif;
+    font-family: monospace;  
     background-color:#ffffff;
     
 }
@@ -41,7 +41,7 @@ body{
     border-right:1px solid white;
 }
 
-#exp{
+#media{
     border-right: 1px solid white;
 }
 
@@ -72,11 +72,17 @@ body{
     font-size: 18px;  
 }
 
+.navbuttons:hover{
+    background-color: #f0f0f0;
+    color: black;
+
+}
+
 #main {
     margin-left: 15%;
     margin-right: 15%;
     background-color:#f0f0f0;
-    
+    margin-top: -30px;
     Height: 1000px;
 }
     
@@ -85,6 +91,10 @@ body{
     display: inline-block;
     padding-right: 35px;
     margin-top:-6px;
+}
+
+.socialmedia:hover{
+    
 }
 
 #fb{
@@ -99,3 +109,34 @@ body{
     background-color: transparent;
     margin-top: 6px
 }
+
+#header{
+    text-align:center;
+    font-size: 50px;
+}
+
+#emailForm{
+    text-align: center;
+    align-content: center;
+    border: 1px solid black;
+    width 150px;
+    height 250px;
+}
+
+button{
+    
+    background-color: silver; 
+    border-radius: 10%;
+    height: 30px;
+    width: 60px;
+}
+
+#messagebox{
+   
+}
+
+#emailFormHeader{ 
+    text-align: center;
+    font-size: 20px;
+}
+
