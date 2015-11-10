@@ -1,11 +1,53 @@
-html{
-    color: white;   
-}
+/*=======================*/
+/*     MOBILE STYLES     */
+/*=======================*/
 
-body{
-    box-sizing:border-box;    
-    font-family: helvetica;  
-    background-image: url(http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/725/full/tileable-starfield-patterns-5.jpg);
+
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+    
+    #logo{
+        display: none;
+        
+        padding-right: 0%;
+    }
+    
+    #ejs{
+        display: none;
+        
+    }
+    
+    .navwords{
+       font-size: 12px;
+    }
+    
+    .navbuttons{
+        width: 100%;
+        margin-right:20%;
+    }
+    
+    
+
+    .navbar{
+        width: 100%;  
+        margin: 0 auto;
+        height: 60px;
+    }
+
+    .vidcells{
+        width: 100%;
+        float: left;
+        
+    }
+    .vids{
+        width: 100%;
+        float: left;
+    }
+    
+    .socialmedia{
+        width: 0%;
+    }
+    
     
 }
 
@@ -16,8 +58,33 @@ body{
 
 
 
+/*===================*/
+/*     HTML/BODY     */
+/*===================*/
 
-/*NAVBAR SECTION*/
+
+
+
+html{
+    color: #dedede;   
+}
+
+
+
+
+body{ 
+    box-sizing:border-box;    
+    font-family: 'Abel', sans-serif;
+    background-color: black;
+}
+
+
+
+
+
+/*============================*/
+/*       NAVBAR SECTION       */
+/*============================*/
 
 
 .navwrap{
@@ -28,9 +95,9 @@ body{
 
 #logo{
     float:left;
-    height: 80px;
+    
     width:6%;
-    margin-top: -12px;
+    margin-top: -15px;
     padding-right: 4%;  
 }
 
@@ -42,23 +109,18 @@ body{
 }
 
 #home{
-    border-right: 1px solid white;
 }
 
 #bio{
-    border-right:1px solid white;
 }
 
 #audio{
-    border-right: 1px solid white;
 }
 
 #video{
-    border-right: 1px solid white;
 }
 
-#contact{
-    
+#contact{    
 }
 
 .navbar{
@@ -69,25 +131,32 @@ body{
     color:#ffffff;
     width: 97%;
     height: 30px;
-    background: -webkit-linear-gradient(left, black , #535353); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #535353, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #535353, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left, #535353 , black); /* Standard syntax (must be last) */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010101+2,4e4e4e+52,0a0a0a+99&0.86+0,1+100 */
+background: -moz-linear-gradient(top, rgba(1,1,1,0.86) 0%, rgba(1,1,1,0.86) 2%, rgba(78,78,78,0.93) 52%, rgba(10,10,10,1) 99%, rgba(10,10,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(1,1,1,0.86)), color-stop(2%,rgba(1,1,1,0.86)), color-stop(52%,rgba(78,78,78,0.93)), color-stop(99%,rgba(10,10,10,1)), color-stop(100%,rgba(10,10,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', endColorstr='#0a0a0a',GradientType=0 ); /* IE6-9 */
 }
 
 .navbuttons{
     display: inline-block;
     float: left;
     text-align: center;
-    width: 15%;
-    font-size: 18px;  
+    width: 12.5%;
+    font-size: 14px;  
 }
 
-.navbuttons:hover{
-    background-color: #f0f0f0;
-    color: black;
-
+a{
+    color: white;
 }
+
+a:hover{
+    color: #bababa;
+}
+
 
 .socialmedia{
     width:30px;
@@ -116,23 +185,37 @@ body{
 
 
 
+/*=====================*/
+/*     MAIN SECTION    */
+/*=====================*/
 
-/*MAIN SECTION STARTS HERE*/
 
 
 #main {
     width: 100%;
-    margin-top: -30px;
-    Height: 600px;
-    background-color:rgba(0, 0, 0, 0.83);
+    margin-top: -30px;    
+}
+
+#name{
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    
+    margin-left: 60%;
 }
     
+#upright{
+    width: 100%;
+    height: auto;
+    
+}
+ 
 #mainContent{
     
     margin-left: 15%;
     margin-right: 15%;
-    background-color: rgba(0, 0, 0, 0.62);
-    height:500px;
+    
+    height:1870px;
 }
 
 #header{
@@ -143,28 +226,15 @@ body{
 
 
 
-#mainContent p{
-    text-align: justify;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 18px;
-    line-height: 25px;
-}
 
 
 
-.FirstLetters{ 
-    
-}
+/*====================*/
+/*     EMAIL FORM     */
+/*====================*/
 
 
 
-
-
-
-
-
-/*EMAIL FORM*/
 
 #emailForm{
     text-align: center;
@@ -199,7 +269,12 @@ button{
 
 
 
-/*VIDEO PAGE*/
+/*====================*/
+/*     VIDEO PAGE     */
+/*====================*/
+
+
+
 
 #vidTable{
     width: 100%;

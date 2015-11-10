@@ -1,3 +1,73 @@
+/*=======================*/
+/*     MOBILE STYLES     */
+/*=======================*/
+
+
+
+
+
+@media screen and (max-width: 600px) and (min-width: 0px){
+    
+    #logo{
+        display: none;
+        
+        padding-right: 0%;
+    }
+    
+    #ejs{
+        display: none;
+        
+    }
+    
+    .navwords{
+       font-size: 12px;
+    }
+    
+    .navbuttons{
+        width: 100%;
+        margin-right:20%;
+    }
+    
+    
+
+    .navbar{
+        width: 100%;  
+        margin: 0 auto;
+        height: 60px;
+    }
+
+    .vidcells{
+        width: 100%;
+        float: left;
+        
+    }
+    .vids{
+        width: 100%;
+        float: left;
+    }
+    
+    .socialmedia{
+        width: 0%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+/*===================*/
+/*     HTML/BODY     */
+/*===================*/
+
+
+
+
+
 html{
     color: #dedede;   
 }
@@ -14,9 +84,11 @@ body{
 
 
 
+/*============================*/
+/*       NAVBAR SECTION       */
+/*============================*/
 
 
-/*NAVBAR SECTION*/
 
 
 .navwrap{
@@ -60,6 +132,10 @@ body{
     
 }
 
+a{
+    color: #ffffff;
+}
+
 .navbar{
     margin-top:30px;
     display: inline-block;
@@ -87,10 +163,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
     
 }
 
-.navbuttons:hover{
-    background-color: #d4d4d4;
-    color: black;
+a{
+    color: white;
+    text-decoration: none;
+}
 
+a:hover{
+    color: #bababa;
 }
 
 .socialmedia{
@@ -120,8 +199,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
 
 
 
+/*=====================*/
+/*     MAIN SECTION    */
+/*=====================*/
 
-/*MAIN SECTION STARTS HERE*/
+
+
 
 
 #main {
@@ -142,7 +225,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
     height: auto;
     
 }
-
+ 
 #mainContent{
     
     margin-left: 15%;
@@ -165,7 +248,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
 
 
 
-/*EMAIL FORM*/
+
+/*====================*/
+/*     EMAIL FORM     */
+/*====================*/
+
+
+
+
 
 #emailForm{
     text-align: center;
@@ -198,8 +288,11 @@ button{
 
 
 
+/*====================*/
+/*     VIDEO PAGE     */
+/*====================*/
 
-/*VIDEO PAGE*/
+
 
 #vidTable{
     width: 100%;
@@ -221,8 +314,11 @@ button{
 
 
 
+/*=======================*/
+/*     ABOUT ARTICLE     */
+/*=======================*/
 
-/*ABOUT ARTICLE*/
+
 
 .aboutParagraphs{
     line-height: 23px;
@@ -284,7 +380,13 @@ button{
 
 
 
-/*FOOTER*/
+
+/*================*/
+/*     FOOTER     */
+/*================*/
+
+
+
 
 footer{
     height: 50px;

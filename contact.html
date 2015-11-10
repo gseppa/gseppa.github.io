@@ -5,7 +5,11 @@
         <link type="text/css" rel="stylesheet" href="contactStylesheet.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="ejsScript.js"></script>
     </head>
     <body>
         <div class="navwrap">
@@ -17,26 +21,25 @@
                     <em></em>
                 </li>
                 <li class="navbuttons" id="home">
-                    <p class="navwords">Home</p>
+                    <a href="home.html"><p class="navwords">Home</p></a>
                 </li>
-                <li class="navbuttons" id="bio">
-                    <p class="navwords">About</p>
+                <li class="navbuttons" id="about">
+                    <a href="about.html"><p class="navwords">About</p></a>
                 </li>
                 <li class="navbuttons" id="audio">
-                    <p class="navwords">Audio</p>
+                    <a href="audio.html"><p class="navwords">Audio</p></a>
                 </li>
                 <li class="navbuttons" id=video>
-                    <p class="navwords">Video</p>
+                    <a href="videos.html"><p class="navwords">Video</p></a>
+                </li>
+                <li class="navbuttons" id="photos">
+                    <a href="photos.html"><p class="navwords">Photos</p></a>
                 </li>
                 <li class="navbuttons" id="contact">
-                    <p class="navwords">Contact</p>
+                    <a href="contact.html"><p class="navwords">Contact</p></a>
                 </li>
                 
-                <li class="socialmedia">
-                    <a target="_blank" title="follow me on youtube" href="http://www.youtube.com/PLACEHOLDER">
-                        <img id="yt" alt="follow me on youtube" src="https://c866088.ssl.cf3.rackcdn.com/assets/youtube30x30.png" border=0>
-                    </a>
-                </li>
+                
             </ul>    
         </div>
         <br><br>
@@ -45,15 +48,21 @@
             <div id="mainContent"><br>
             
             <br>
-            <form action="MAILTO:someone@example.com" method="post" enctype="text/plain" id="emailForm">
+                
+<!--- SET UP CORRECT EMAIL FOR FORM ACTION --->
+            <form action="http://formspree.io/your@email.com" method="post" enctype="text/plain" id="emailForm">
                 <h3>Send An Email!</h3>
                 <br><br>
                 First name:<br><br>
-                    <input class="textInput" type="text" name="firstname">
+                    <input class="textInput" type="text" name="name">
                 <br><br>
                 Email:<br><br>
-                    <input class="textInput" type="text" name="lastname">
+                    <input class="textInput" type="text" name="email">
                 <br><br>
+                Phone Number:<br><br>
+                    <input class="textInput" type="text" name="phoneNumber"> 
+                <br><Br>
+                Message:<br><Br>
                 <textarea class="textInput" rows="6"></textarea>
                 <br><br>
                 <input type="submit" value="Send">
@@ -62,9 +71,6 @@
                 <footer><h4>(240).383.0196 / eliotjseppa@yahoo.com</h4></footer>
             </div>              
         </div>
-        
-    
-    
     <script src="ejsScript.js"></script>
     </body>
 </html>

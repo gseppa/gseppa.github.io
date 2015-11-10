@@ -7,5 +7,9 @@ var logo = document.getElementById("logo");
 var emailForm = document.getElementById("emailForm");
 
 
+document.ready(function(){ 
+    
+    
 
 
+});
