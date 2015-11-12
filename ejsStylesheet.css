@@ -160,8 +160,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
 
 a{
     color: white;
+    text-decoration: none;
 }
-
 
 a:hover{
     color: #bababa;

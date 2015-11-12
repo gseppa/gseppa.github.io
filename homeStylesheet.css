@@ -132,9 +132,7 @@ body{
     
 }
 
-a{
-    color: #ffffff;
-}
+
 
 .navbar{
     margin-top:30px;
@@ -197,8 +195,6 @@ a:hover{
 
 
 
-
-
 /*=====================*/
 /*     MAIN SECTION    */
 /*=====================*/
@@ -216,7 +212,7 @@ a:hover{
     position: absolute;
     text-align: center;
     font-size: 40px;
-    
+    opacity: 0.9;
     margin-left: 60%;
 }
     
@@ -377,29 +373,3 @@ button{
 
 
 
-
-
-
-
-/*================*/
-/*     FOOTER     */
-/*================*/
-
-
-
-
-footer{
-    height: 50px;
-    width: 100%;
-    clear: both;
-    text-align:center;
-    background: -webkit-linear-gradient(left, black , #535353); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #535353, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #535353, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left, #535353 , black); /* Standard syntax (must be last) */
-    
-}
-
-footer h2{
-    padding-top: 10px;
-}
