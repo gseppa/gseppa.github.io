@@ -93,6 +93,7 @@ body{
 
 
 
+
 .navwrap{
     height: 100px;
     background-color: black;
@@ -100,7 +101,6 @@ body{
 }
 
 #logo{
-    max-width: 100%;
     float:left;
     
     width:6%;
@@ -116,20 +116,26 @@ body{
 }
 
 #home{
+    
 }
 
-#about{
+#bio{
+    
 }
 
 #audio{
+    
 }
 
 #video{
+    
 }
 
 #contact{
     
 }
+
+
 
 .navbar{
     margin-top:30px;
@@ -167,7 +173,6 @@ a:hover{
     color: #bababa;
 }
 
-
 .socialmedia{
     width:30px;
     display: inline-block;
@@ -177,10 +182,14 @@ a:hover{
 
 .navwords{
     background-color: transparent;
-    margin-top: 6px
+    margin-top: 6px;
+    font-size: 17px;
 }
 
-
+#yt{
+    width:50px;
+    height: 50px;
+}
 
 
 
