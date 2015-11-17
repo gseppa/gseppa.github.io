@@ -1,59 +1,3 @@
-/*=======================*/
-/*     MOBILE STYLES     */
-/*=======================*/
-
-
-
-@media screen and (max-width: 600px) and (min-width: 0px){
-    
-    #logo{
-        display: none;
-        
-        padding-right: 0%;
-    }
-    
-    #ejs{
-        display: none;
-        
-    }
-    
-    .navwords{
-       font-size: 12px;
-    }
-    
-    .navbuttons{
-        width: 100%;
-        margin-right:20%;
-    }
-    
-    
-
-    .navbar{
-        width: 100%;  
-        margin: 0 auto;
-        height: 60px;
-    }
-
-    .vidcells{
-        width: 100%;
-        float: left;
-        
-    }
-    .vids{
-        width: 100%;
-        float: left;
-    }
-    
-    .socialmedia{
-        width: 0%;
-    }
-    
-    
-}
-
-
-
-
 
 
 
@@ -84,9 +28,6 @@ body{
 
 
 
-
-
-
 /*============================*/
 /*       NAVBAR SECTION       */
 /*============================*/
@@ -108,32 +49,6 @@ body{
     padding-right: 4%;  
 }
 
-#ejs{
-    float:left;
-    font-size: 30px;
-   
-    display:inline-block;
-}
-
-#home{
-    
-}
-
-#bio{
-    
-}
-
-#audio{
-    
-}
-
-#video{
-    
-}
-
-#contact{
-    
-}
 
 
 
@@ -186,10 +101,6 @@ a:hover{
     font-size: 17px;
 }
 
-#yt{
-    width:50px;
-    height: 50px;
-}
 
 
 
@@ -209,6 +120,13 @@ a:hover{
     width: 100%;
     margin-top: -30px;    
     height: auto;
+}
+
+.mainTitles{
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    
 }
 
 #name{
@@ -233,10 +151,7 @@ a:hover{
     height:1870px;
 }
 
-#header{
-    text-align:center;
-    font-size: 50px;
-}
+
 
 
 
@@ -253,50 +168,12 @@ ul{
 }
 
 
-#audioLink{
-    
 
-}
-
-
-
-
-
-
-
-
-
-/*====================*/
-/*     EMAIL FORM     */
-/*====================*/
-
-
-
-
-
-#emailForm{
+.audioLink{
     text-align: center;
-    align-content: center;
-    width 150px;
-    height 250px;
+    padding-right: 4%;
 }
 
-button{
-    
-    background-color: silver; 
-    border-radius: 10%;
-    height: 30px;
-    width: 60px;
-}
-
-#messagebox{
-   
-}
-
-#emailFormHeader{ 
-    text-align: center;
-    font-size: 20px;
-}
 
 
 
@@ -308,6 +185,7 @@ button{
 /*================*/
 /*   VIDEO PAGE   */
 /*================*/
+
 
 
 
@@ -326,6 +204,20 @@ button{
     height: 300px;
 }
 
+.subHeaders{
+    text-align: center;
+    margin: auto;
+}
+
+.kennedyCenter{
+    padding-right: 5%;
+    line-height: 30px;
+    text-align: center;
+}
+
+#kennedy{
+    margin: auto;
+}
 
 
 
@@ -341,7 +233,7 @@ button{
     width: 80%;
     max-width: 100%;
     
-    margin-top: 30px;
+    
 }
 
 
@@ -366,82 +258,198 @@ td{
 
 
 .aboutParagraphs{
-    line-height: 23px;
+    
     text-align: justify;
 }
 
-#p1{
-    width: 90%;
-    float: left;
-    
-    padding-left: 5%;
-    padding-right: 5%;
+#whiteHouse{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -430px;
+    overflow: hidden;
 }
 
-#ejsElectricBass{
+#senegal{
     width: 40%;
-    float: left;
-    clear: left;
-    padding: 0 5% 0 5%;
     
 }
+
+
 
 #p2{
-    width: 40%;
+    width: 50%;
     float: left;
-    padding: 0 5% 0 5%;
-}
-
-#ejsBrokenString{
-    width: 40%;    
-    padding: 22px 5% 0 5%;
-    
+    margin-right: 5%;
 }
 
 #p3{
-    width: 40%;
-    padding: 0 5% 0 5%;
-    float: left;
-    margin-top: -200px;
-}
-
-#ejsUpright{
-    float: left;
-    padding-left: 5%;
-    width: 40%;
-    
-}
-#p4{
-    padding-left: 5%;
-    padding-right: 5%;
-    display: block;
-    width: 40%;
-    overflow: hidden;   
-    float: right;
-}
-
-
-
-
-
-
-/*FOOTER*/
-
-footer{
-    height: 50px;
-    width: 100%;
+    width:100%;
     clear: both;
-    text-align:center;
-    background: -webkit-linear-gradient(left, black , #535353); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #535353, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #535353, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to left, #535353 , black); /* Standard syntax (must be last) */
     
 }
 
-footer h2{
-    padding-top: 10px;
+#p4{
+    width: 50%;
+    
 }
+
+#p4Break{
+    display: block;
+    width: 200%;
+}
+
+#p5{
+    width: 100%;
+    float: left;
+    clear: both;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*=======================*/
+/*     MOBILE STYLES     */
+/*=======================*/
+
+
+
+@media screen and (max-width: 600px) and (min-width: 0px){
     
     
     
+    /*========*/
+    /* NAVBAR */
+    /*========*/
+    
+    #logo{
+        display: none;
+        
+        padding-right: 0%;
+    }
+    
+    
+    .navwords{
+       font-size: 12px;
+    }
+    
+    .navbuttons{
+        
+        margin-right:20%;
+        float: left;
+    }
+    
+    
+
+    .navbar{
+        width: 100%;  
+        margin: 0 auto;
+        height: 60px;
+    }
+
+    .navwrap{
+        margin-top: 10px;
+    }
+    
+    
+    /*========*/
+    /* VIDEOS */
+    /*========*/
+    
+    .vidcells{
+        width: 100%;
+        float: left;        
+    }
+    
+    .vids{
+        width: 100%;
+        float: left;
+    }
+    
+    .socialmedia{
+        width: 0%;
+    }
+    
+    tr{
+        clear: both;
+    }
+    
+    
+    
+    /*=====================*/
+    /*     MAIN SECTION    */
+    /*=====================*/
+    
+    #main: {
+        width: 100%;
+    }
+    
+    #mainContent{
+        
+        width 100%;
+    }
+    
+    #header{
+        font-size: 15px;
+    }
+    
+    
+    
+    /*=======================*/
+    /*     ABOUT ARTICLE     */
+    /*=======================*/
+    
+    #p1{
+        width: 100%;   
+        float: none;
+    }
+    
+    #p2{
+        width: 100%;
+        float: none;
+    }
+    
+    #p3{
+        width: 100%;
+        float: none;
+    }
+    
+    #p4{
+        width: 100%;
+        float: none;
+    }
+    #p4Break{
+        width: 100%;
+    }
+    
+    #p5{
+        width: 100%;
+        float: none;
+    }
+    
+    #senegal{
+        width: 100%;
+        float: none;
+    }
+    
+    #whiteHouse{
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+    }
+    
+    
+    
+    
+    .audioLink{
+        padding-right: 10%;
+    }
+}

@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        <title>Eliot Seppa - Contact</title>
+        <title>Eliot Seppa | Contact</title>
         <link type="text/css" rel="stylesheet" href="contactStylesheet.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,6 @@
         <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="ejsScript.js"></script>
     </head>
     <body>
         <div class="navwrap">
@@ -18,11 +17,9 @@
                 <li>
                     <img id="logo" src="ejslogotransparency.png">
                 </li>
-                <li id="ejs">
-                    <em></em>
-                </li>
+                
                 <li class="navbuttons" id="home">
-                    <a href="home.html"><p class="navwords">Home</p></a>
+                    <a href="index.html"><p class="navwords">Home</p></a>
                 </li>
                 <li class="navbuttons" id="about">
                     <a href="about.html"><p class="navwords">About</p></a>
@@ -43,35 +40,38 @@
                 
             </ul>    
         </div>
-        <br><br>
+        <br>
         <div id="main">
-            <br><br><br>
-            <div id="mainContent"><br>
-            
             <br>
+            <div id="mainContent">
+                <h2 class="mainTitles">Contact</h2>
+            
                 
 <!--- SET UP CORRECT EMAIL FOR FORM ACTION --->
-            <form action="http://formspree.io/your@email.com" method="post" enctype="text/plain" id="emailForm">
-                <h3>Send An Email!</h3>
+                
+                <form action="http://formspree.io/your@email.com" method="post" enctype="text/plain" id="emailForm">
+                     Name:<br>
+                        <input class="textInput" type="text" name="name">
+                    <br><br>
+                    Email Address:<br>
+                        <input class="textInput" type="text" name="email">
+                    <br><br>
+                    Phone Number:<br>
+                        <input class="textInput" type="text" name="phoneNumber"> 
+                    <br><br>
+                    Message:<br>
+                    <textarea class="textInput" rows="6" ></textarea>
+                    <br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
                 <br><br>
-                First name:<br><br>
-                    <input class="textInput" type="text" name="name">
-                <br><br>
-                Email:<br><br>
-                    <input class="textInput" type="text" name="email">
-                <br><br>
-                Phone Number:<br><br>
-                    <input class="textInput" type="text" name="phoneNumber"> 
-                <br><Br>
-                Message:<br><Br>
-                <textarea class="textInput" rows="6"></textarea>
-                <br><br>
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset">
-            </form>
-                <footer><h4>(240).383.0196 / eliotjseppa@yahoo.com</h4></footer>
+                <footer>
+                    Eliot Seppa | (240)-383-0196 | eliotseppamusic@gmail.com
+                </footer>
+                
             </div>              
         </div>
-    <script src="ejsScript.js"></script>
+    
     </body>
 </html>
