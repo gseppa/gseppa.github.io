@@ -22,6 +22,7 @@ body{
     box-sizing:border-box;    
     font-family: 'Abel', sans-serif;
     background-color: black;
+    height: 670px;
 }
 
 
@@ -33,8 +34,6 @@ body{
 /*============================*/
 
 
-
-
 .navwrap{
     height: 100px;
     background-color: black;
@@ -42,8 +41,8 @@ body{
 }
 
 #logo{
+    height: 100px;
     float:left;
-    
     width:6%;
     margin-top: -15px;
     padding-right: 4%;  
@@ -143,7 +142,7 @@ a:hover{
     
     margin-left: 15%;
     margin-right: 15%;    
-    height:1870px;
+    height: 600px;
 }
 
 #header{
@@ -189,7 +188,7 @@ button{
 }
 
 textarea{
-    width: 200px;
+    width: 40%;
 }
 
 
@@ -226,11 +225,11 @@ footer{
     
    
     .navwords{
-       font-size: 12px;
+       font-size: 18px;
     }
     
     .navbuttons{
-        width: 100%;
+        
         margin-right:20%;
     }
     
@@ -247,7 +246,8 @@ footer{
     }
     
     textarea{
-        width: 200px;    
+        width: 90%;
+        margin: auto;
     }
     
 }

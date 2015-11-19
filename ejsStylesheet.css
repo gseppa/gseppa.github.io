@@ -43,7 +43,7 @@ body{
 
 #logo{
     float:left;
-    
+    height: 100px;
     width:6%;
     margin-top: -15px;
     padding-right: 4%;  
@@ -444,6 +444,8 @@ td{
         width: 100%;
         float: none;
         margin-top: 0px;
+        margin-left: 0;
+        margin-right: 0; 
     }
     
     
