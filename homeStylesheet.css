@@ -25,6 +25,10 @@ body{
     display: none;
 }
 
+#logoMobile{
+    display: none;
+   
+}
 
 
 
@@ -130,26 +134,22 @@ a:hover{
     text-align: center;
     font-size: 50px;
     opacity: 0.9;
-    margin-left: 60%;
+    margin-left: 62%;
 }
     
 #upright{
     width: 100%;
     height: auto;
-    
-}
- 
-#mainContent{
-    
-    margin-left: 15%;
-    margin-right: 15%;
-    
-    height:1870px;
 }
 
-#header{
-    text-align:center;
-    font-size: 50px;
+
+#blurb{
+    text-align: justify;
+    position: absolute;
+    margin-left: 65%;
+    width: 25%;
+    height: auto;
+    margin-top: 10%;
 }
 
 
@@ -167,9 +167,11 @@ a:hover{
 
 
 
-/*=======================*/
-/*     MOBILE STYLES     */
-/*=======================*/
+/*===================================*/
+/*           MOBILE STYLES           */
+/*===================================*/
+
+
 
 
 
@@ -178,9 +180,11 @@ a:hover{
 @media screen and (max-width: 600px) and (min-width: 0px){
     
     
+    
     /*============================*/
     /*       NAVBAR SECTION       */
     /*============================*/
+    
     
     .navwrap{
         margin-top: 10px;
@@ -190,8 +194,11 @@ a:hover{
         display: none;
     }
     
-    #ejs{
-        display: none;
+    #logoMobile{
+        display:block;
+        position: absolute;
+        height: 30px;
+        margin-top: 20px;
         
     }
     
@@ -217,14 +224,25 @@ a:hover{
     
     
     
-    
     /*=====================*/
     /*     MAIN SECTION    */
     /*=====================*/
     
     #name{
         font-size: 25px;
+        margin-top: -10px;
+        margin-left: 55%;
     }
     
+    #blurb{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 65%;
+    }
+    
+    #upright{
+        clear: both;
+    }
+     
 }
 
