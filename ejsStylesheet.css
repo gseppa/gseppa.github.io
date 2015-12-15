@@ -74,7 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
     display: inline-block;
     float: left;
     text-align: center;
-    width: 12.5%;
+    width: 9.125%;
     font-size: 14px;  
     
 }
@@ -85,7 +85,7 @@ a{
 }
 
 a:hover{
-    color: #bababa;
+    color: #407ccc;
 }
 
 .socialmedia{
@@ -218,6 +218,30 @@ ul{
 #kennedy{
     margin: auto;
 }
+
+
+
+
+
+
+
+
+/*=====================*/
+/*     DISCOGRAPHY     */
+/*=====================*/
+
+
+.discographyPics{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.discographyPics:hover{}
+
+
 
 
 
