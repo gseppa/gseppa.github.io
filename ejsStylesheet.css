@@ -152,7 +152,18 @@ a:hover{
 }
 
 
-
+#contactInfo{
+    text-align: center;
+    font-size: 20px;
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010101+2,4e4e4e+52,0a0a0a+99&0.86+0,1+100 */
+background: -moz-linear-gradient(top, rgba(1,1,1,0.86) 0%, rgba(1,1,1,0.86) 2%, rgba(78,78,78,0.93) 52%, rgba(10,10,10,1) 99%, rgba(10,10,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(1,1,1,0.86)), color-stop(2%,rgba(1,1,1,0.86)), color-stop(52%,rgba(78,78,78,0.93)), color-stop(99%,rgba(10,10,10,1)), color-stop(100%,rgba(10,10,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(1,1,1,0.86) 0%,rgba(1,1,1,0.86) 2%,rgba(78,78,78,0.93) 52%,rgba(10,10,10,1) 99%,rgba(10,10,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', endColorstr='#0a0a0a',GradientType=0 ); /* IE6-9 */
+}
 
 
 
