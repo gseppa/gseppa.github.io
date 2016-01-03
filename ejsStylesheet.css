@@ -20,6 +20,11 @@ body{
 }
 
 
+ul{
+    list-style-type: none;
+}
+
+
 
     
  
@@ -183,9 +188,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
 /*====================*/
 
 
-ul{
-    list-style-type: none;
-}
+
 
 
 
@@ -269,49 +272,38 @@ ul{
 /*========================*/
 
 
+.captions{
 
-.gallery{
-    
-    max-width: 100%;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 20px;
-    height: auto;
-    float: left;
-    
 }
 
-.portraitGallery{
-    width: 30%;
-    height: auto;
-    margin-left: 13.33%;
-    margin-top: 20px;
+.portraitLi{
     float: left;
-    max-width: 100%;
-    max-height: 100%;
+    width: 40%;
+    margin: 10px 2.5% 10px 2.5%;
+}
+
+.galleryLi{
+    float: left;
+    width: 40%;
+    margin: 10px 2.5% 10px 2.5%;
+}
+
+.portraitGallery{ 
+    width: 100%;
+
+}
+
+.gallery{
+    width: 100%;
+}
+
+.captions{
+
 }
 
 #lastPortrait{
-    clear: both;
+    margin-left: -42.5%;
 }
-
-#secondLandscape{clear: both;}
-
-
-.clearPics{
-    clear: left;
-    max-width: 100%;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 20px;
-    height: auto;
-    float: left;
-}
-
-
-
 
 
 
