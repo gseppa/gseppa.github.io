@@ -22,7 +22,7 @@ body{
     box-sizing:border-box;    
     font-family: 'Abel', sans-serif;
     background-color: black;
-    display: none;
+    
 }
 
 #logoMobile{
@@ -81,13 +81,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
     display: inline-block;
     float: left;
     text-align: center;
-    width: 9.125%;
+    width: 11%;
     font-size: 14px;  
     
 }
 
 a{
-    color: #568aff;
+    color: #dedede;
     text-decoration: none;
 }
 
@@ -204,14 +204,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
 @media screen and (max-width: 600px) and (min-width: 0px){
     
     
-    
+    body{
+        overflow: hidden;
+    }
     /*============================*/
     /*       NAVBAR SECTION       */
     /*============================*/
     
     
     .navwrap{
-        margin-top: 10px;
+        
     }
     
     #logo{
@@ -221,26 +223,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
     #logoMobile{
         display:block;
         position: absolute;
-        height: 30px;
+        height: 50px;
+        width: auto;
         margin-top: 20px;
         
     }
     
     .navwords{
-       font-size: 16px;
+       font-size: 13px;
     }
     
     .navbuttons{
+        width: 33%;
         
-        margin-right:20%;
     }
     
     
 
     .navbar{
-        width: 100%;  
+        width: 89%;  
         margin: 0 auto;
-        height: 60px;
+        height: 100px;
+        
     }
     
   
@@ -252,21 +256,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db010101', e
     /*     MAIN SECTION    */
     /*=====================*/
     
+    #main{
+        width: 100%;
+        height: auto;
+    }
+    
+    .subHeading{
+        font-size: 13px;
+        text-align: center;
+        margin-left:8%;
+        margin-top: 40px;
+    }
+    
     #name{
-        font-size: 25px;
-        margin-top: -10px;
-        margin-left: 55%;
+        font-size: 20px;
+        margin-left: 12%;
+        line-height: 25px;
+        
+        
     }
     
     #blurb{
-        width: 95%;
+        font-size: 12px;
+        width: 55%;
         margin: 0 auto;
-        margin-top: 65%;
+        margin-top: 60px;
+        border-top: 1px solid #dedede;
     }
     
-    #upright{
-        clear: both;
+    #portrait{
+        width: 45%;
     }
-     
+    
+    #contactInfo{
+        margin-top: 130px;
+        font-size: 14px;
+    }
 }
 
